@@ -269,8 +269,8 @@ cite.built-by {
 
   }
     #about-panamax dl dt {
-      color: #229fe5;
-      font-weight: bold;
+      color: #AAA;
+      font-weight: 200;
       font-size: 24px;
       float: left;
       margin-top: 20px;
@@ -370,7 +370,7 @@ footer {
     padding: 20px;
   }
     #footer-top p {
-        font-size: 12px;
+        /*font-size: 12px;*/
       }
     #footer-info {
       width: 60%;
@@ -387,7 +387,7 @@ footer {
       #footer-top li {
         display: inline;
         margin: 0px 10px 0px 0px;
-        font-size: 12px;
+        /*font-size: 12px;*/
       }
         #footer-top li a {
           text-decoration: none;
