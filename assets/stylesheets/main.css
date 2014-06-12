@@ -12,7 +12,7 @@ body {
   body#home {
     background: url('../images/bg_hero.png') top no-repeat;
   }
-  body#content {
+  body.content {
     /*Need to fade the bg to 50% opacity*/
   }
 
@@ -343,6 +343,27 @@ cite.built-by {
   padding: 10px;
 }
 
+
+.two-column {
+  width: 420px;
+  float: left;
+  margin-right: 15px;
+}
+  .two-column:last-child {
+    margin-right: 0px;
+  }
+.three-column {
+  width: 310px;
+  float: left;
+  margin-right: 15px;
+}
+  .three-column:last-child {
+    margin-right: 0px;
+  }
+.four-column {
+
+}
+
 /*BLOG ENTRIES*/
 
 .post-metadata {
@@ -445,7 +466,7 @@ cite.built-by {
             margin-left: 80px;
           }
 
-/*GET PANAMAX*/
+/*GET PANAMAX - Home page instance*/
 
 #get-panamax {
   clear: both;
@@ -471,10 +492,22 @@ cite.built-by {
     background: #f1f1f1;
   }
 
+/*GET PANAMAX - Stand-alone page*/
+
+#download-panamax {
+  background: #f1f1f1;
+}
+#install-panamax {
+  background: #f1f1f1;
+}
+#run-panamax {
+  background: yellow;
+}
+
 /*FOOTER*/
 
 footer {
-  
+  clear: both;
 }
   #footer-top {
     background: #f1f1f1;
