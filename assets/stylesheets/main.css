@@ -420,13 +420,35 @@ cite.built-by {
       .post-comments-list {
 
       }
-        .post-comments-list .post-comment {
-          
+        .post-comment {
+          border-bottom: 1px solid #f1f1f1;
+          clear: both;
+          padding: 20px 0px 10px 0px;
         }
+          .post-comment:last-child {
+            border-bottom: none;
+          }
+          .comment-avatar {
+            padding: 0px !important;
+            border: none !important;
+          }
+          .comment-name {
+            font-weight: bold;
+            color: #222;
+            float: left;
+            margin-right: 10px;
+          }
+          .comment-date {
+            color: #AAA;
+          }
+          .comment-content {
+            margin-left: 80px;
+          }
 
 /*GET PANAMAX*/
 
 #get-panamax {
+  clear: both;
   background: #1C6D95;
   height: 80px;
   padding: 20px 0px;
