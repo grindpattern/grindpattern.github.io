@@ -134,6 +134,15 @@ pre {
     word-wrap: break-word;
   }
 
+/*FORMS*/
+
+input {
+  padding: 10px;
+  font-size: 13px;
+  border: 1px solid #AAA;
+  color: #AAA;
+}
+
 /*HEADER + NAV*/
 
 header {
@@ -288,7 +297,7 @@ cite.built-by {
 /*BASIC CONTENT STYLES*/
 
 .content-area {
-  margin-left: 160px;
+  margin: 0px 0px 30px 160px;
 }
 
 .section-summary {
@@ -334,6 +343,86 @@ cite.built-by {
   padding: 10px;
 }
 
+/*BLOG ENTRIES*/
+
+.post-metadata {
+  text-align: right;
+}
+  .post-metadata p {
+    color: #AAA;
+  }
+    .post-metadata a {
+      color: #777;
+      text-decoration: none;
+    }
+      .post-metadata a:hover {
+        color: #AAA;
+        text-decoration: underline;
+      }
+
+.post-tags {
+  width: 140px;
+  float: left;
+}
+  .post-tags li {
+    margin-bottom: 5px;
+  }
+    .post-tags a {
+      color: #AAA;
+      text-decoration: none;
+    }
+      .post-tags a:hover {
+        color: #777;
+      }
+
+.post-comments {
+  margin: 30px 0px 0px 0px;
+}
+  .post-comments ul {
+    border-bottom: 2px solid #f1f1f1;
+    padding: 0px 0px 20px 0px;
+  }
+    .post-comments ul li {
+      display: inline;
+      list-style: none;
+      margin-right: 10px;
+    }
+      .post-comments ul li a {
+        text-decoration: none;
+        color: #AAA;
+        font-weight: bold;
+        font-size: 16px;
+        padding-bottom: 19px;
+      }
+        .post-comments ul li a:hover {
+          color: #777;
+        }
+        .post-comments .comment-active {
+          border-bottom: 2px solid #777;
+          color: #E4173F;
+        }
+      .post-comments .button-secondary {
+        color: #FFF;
+        background-color: #777;
+        font-size: inherit;
+        padding: 10px 40px 10px;
+      }
+        .post-comments .button-secondary:hover {
+          background-color: #AAA;
+        }
+      .comment-form {
+        border-radius: 3px;
+        text-align: left;
+        border: 1px solid #aaa;
+        width: 60%;
+        padding: 10px 20px;
+      }
+      .post-comments-list {
+
+      }
+        .post-comments-list .post-comment {
+          
+        }
 
 /*GET PANAMAX*/
 

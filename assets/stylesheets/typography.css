@@ -44,6 +44,10 @@ strong {
   font-weight: bold;
 }
 
+li {
+  font-size: 0.875em;
+}
+
 .microcopy {
   color: #aaa;
   font-style: italic;
