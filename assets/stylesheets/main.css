@@ -494,6 +494,14 @@ cite.built-by {
 
 /*GET PANAMAX - Stand-alone page*/
 
+#download-panamax,
+#install-panamax,
+#run-panamax {
+  text-align: center;
+  padding: 20px 0px;
+  height: 180px;
+}
+
 #download-panamax {
   background: #f1f1f1;
 }
