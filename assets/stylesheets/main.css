@@ -551,6 +551,22 @@ footer {
       width: 35%;
       float: right;
     }
+      #email-newsletter .button-secondary {
+        color: #FFF;
+        background-color: #777;
+        font-size: inherit;
+        padding: 10px 40px 10px;
+      }
+        #email-newsletter .button-secondary:hover {
+          background-color: #AAA;
+        }
+      .email-form {
+        border-radius: 3px;
+        text-align: left;
+        border: 1px solid #aaa;
+        /*width: 60%;*/
+        padding: 10px 20px;
+      }
   #footer-bottom {
     height: 70px;
     padding: 20px 20px 0px 40px;
